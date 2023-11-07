@@ -1,0 +1,395 @@
+%%
+%% This is file `sample-sigplan.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `sigplan')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-sigplan.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%%
+%% The first command in your LaTeX source must be the \documentclass command.
+\documentclass[sigplan,screen,nonacm]{acmart}
+%% NOTE that a single column version is required for 
+%% submission and peer review. This can be done by changing
+%% the \doucmentclass[...]{acmart} in this template to 
+%% \documentclass[manuscript,screen,review]{acmart}
+%% 
+%% To ensure 100% compatibility, please check the white list of
+%% approved LaTeX packages to be used with the Master Article Template at
+%% https://www.acm.org/publications/taps/whitelist-of-latex-packages 
+%% before creating your document. The white list page provides 
+%% information on how to submit additional LaTeX packages for 
+%% review and adoption.
+%% Fonts used in the template cannot be substituted; margin 
+%% adjustments are not allowed.
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{CC}
+\copyrightyear{2023}
+\acmYear{2023}
+\acmDOI{}
+
+%% These commands are for a PROCEEDINGS abstract or paper.
+\acmConference[Digital Humanism '23]{Make sure to enter the correct
+  conference title from your rights confirmation emai}{October--February,
+  2022/2023}{Vienna, Austria}
+%
+%  Uncomment \acmBooktitle if th title of the proceedings is different
+%  from ``Proceedings of ...''!
+%
+\acmBooktitle{} 
+\acmPrice{}
+\acmISBN{}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{From Products to Services: An Exploratory Study of Power Shifts}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{Claire Robin}
+\authornote{All authors contributed equally to this research.}
+\affiliation{%
+  \institution{Technical University of Vienna}
+  \city{Vienna}
+  \country{Austria}
+}
+
+\author{Maximilian Michel}
+\affiliation{%
+  \institution{Technical University of Vienna}
+  \city{Vienna}
+  \country{Austria}
+}
+
+\author{Tudor Nichitov}
+\affiliation{%
+  \institution{Technical University of Vienna}
+  \city{Vienna}
+  \country{Austria}
+}
+
+\author{Christoph Sonntag}
+\affiliation{%
+  \institution{University of Vienna}
+  \city{Vienna}
+  \country{Austria}
+}
+
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+  The shift towards servitization of products has increasingly become a dominant business strategy in many industries. 
+%This paper explores the power dynamics surrounding the servitization of products and its impact on consumer rights.
+By conducting a thorough review of the relevant literature, this paper aims to provide insights into how the servitization of products affects the balance of power between the stakeholders involved. It tries to seek out disadvantages experienced by consumers, shed light on the role monopolies play in this context, discusses possible side effects like piracy resulting from uneven power dynamics and points out areas in need of further research.
+Our findings reveal there is indeed a gap in existing research, which primarily focuses on the benefits for companies but fails to address potential disadvantages for consumers such as market control, consumer lock-in, liquidity requirements and emerging copyright issues due to the lack of ownership. We give an overview on how piracy can both be considered a symptom of a broken system as well as a bottom up approach to mitigate an uneven power distribution. Where possible, the paper tries to shed light on these negative consequences of servitization and provides insight into the complex interplay between companies and consumers in this context. Based on these findings we propose a set of policy guidelines to establish a servitization model that balances the interests of both companies and consumers.
+\end{abstract}
+
+
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+\section{Introduction}
+Initially introduced by Vandermerwe, Sandra and Rada in ~\cite{vandermerwe1988servitization}, servitization is now an important research domain~\cite{kowalkowski2017servitization, luoto2017critical}. Servitization is a model in which a company shifts its focus from providing products to providing services that are closely related to its products.
+Enabled and accelerated by digitization, servitization is becoming increasingly popular in a wide range of industries, including manufacturing, agriculture, transportation, and technology, as companies look for ways to differentiate themselves in an increasingly competitive market~\cite{luoto2017critical}. This transformation entails numerous economic benefits, not only for the seller but also for the customer. 
+
+However, it also presents several drawbacks for some stakeholders, especially concerning ownership, data privacy, and warranty of the acquired goods.
+This results in a shift of power to the disadvantage of some of the parties involved. While servitization can bring many benefits, it is important for companies and policymakers to carefully consider the potential impacts and ensure that the shifts of power are balanced and fair.
+
+In the Related Work section, we will review the state-of-the-art literature on servitization and in particular digital servitization. We will show that servitization research is dominated by industrial marketing management research and that there is a current gap in the study of servitization from a humanistic perspective. The methodology section will go into detail on how the literature review was conducted. Finally, in the Results, we will show that (1) digital servitization encourages a shift of power between stakeholders (and in particular between users and companies), (2) this transfer of power is facilitated by the monopoly situation of digital companies, and by the strengthening of the monopoly due to the digital context, and (3) introduce policy guidelines to protect users' rights.
+
+\section{Related Work}
+%\textit{What is Servitization? Why is it beneficial for companies? Why is it beneficial for consumers? There is a gap in research (see our statistics)! Why is this gap?\cite{luoto2017critical}}
+
+\subsection{Servitization}
+\label{sec:servitization}
+Servitization is a business model that involves adding services to traditional products or transforming the whole business into offering services instead of products. Originally coined by Vandermerwe and Rada in 1988,\cite{vandermerwe1988servitization} who found that "modern corporations are increasingly offering fuller market packages or bundles of customer-focused combinations of goods, services, support, self-service, and knowledge.". The term has since grown and evolved to encompass a wide range of industry and business practices.
+
+Kowalski et al.\cite{kowalkowski2017servitization} highlight that although research has been dealing with this topic for decades, a precise definition of the concept of servitization is still lacking. Therefore, this paper focuses on the orientation of companies regarding their main business model, distinguishing between product-centric and service-centric companies.
+
+
+\subsection{Advantages and Challenges of Servitization}
+The growing trend in the adoption of servitization is driven by a variety of factors. 
+Mosch et al. discuss how a saturation in research and development has led to previously distinguishable products turning into commodities, forcing companies to compete on price alone since product quality above the expected standard is often not demanded by the customer\cite{mosch2021trapped}. In this regard servitization functions as a means to achieve higher profitability and stable revenue streams, to face increasing competition~\cite{eloranta2015seeking} from low-cost manufacturers. Going in the opposite direction, companies are also adopting servitization models based on the digitization of the manufacturing sector in order to provide customized solutions, foregoing the need to compete with commodity producers that can offer lower prices~\cite{mosch2021trapped}. Enabled by digitization, servitization can therefore be applied to help companies improve operational efficiency when competing and offer customization in order to escape it. Regarding the latter, both customers and service providers can profit from the close relationship created buy a long-running service contract. However, close cooperation between the two stakeholders also comes with lock-in effects that may prove challenging for the contract partner not in control of critical resources~\cite{vendrell2017servitization, mosch2021trapped, LACOSTE2015229}.
+
+
+In Zhang et al. ~\cite{zhang2017challenges}, systematic literature review (SLR) is conducted over a large number of studies on servitization (1988-2016) in order to better understand the challenges of this process, from the point of view of the researchers. The SLR has identified five constructs of servitization challenges, presented thoroughly in the paper with supporting evidence:
+\begin{itemize}
+\setlength{\parskip}{0pt}
+  \item Organisational structure - Shifting from the product-centric to a customer or service-centric standpoint proved particularly hard.
+  \item Business model - Modifying the business model often requires to integrate service strategy with the production system.
+  \item Development process - Companies that employ servitization need an integrated development process for both products and services.
+  \item Customer management - Buying services is a relatively new concept to business customers over the last decades. Futhermore, customers may reject purchasing servitized offerings due to concerns regarding ownership
+   \item Risk management - Companies who adopt service strategies are prone to many types of risks
+\end{itemize}
+
+\subsection{Digital Servitization}
+\label{sec:digital-servitization}
+Furthermore, digitization enables easier transactions, collaboration and social interaction and drives the transformation of business and society~\cite{loebbecke2015reflections}. Digital servitization is defined as the use of digital components embedded in a physical product for providing digital services~\cite{holmstrom2014digital}. Advancements in digitization along trends like Industry 4.0 and the Internet of Things that "facilitate the decoupling of machine software from hardware cross"~\cite{kowalkowski2017servitization}, allows companies to collect and analyze data on their products and customer behavior, enabling them to make informed decisions and continuously improve their service offerings. 
+
+Although the concept is still very recent, many works demonstrate the importance of digitization on all aspects of servitization~\cite{cenamor2017adopting,gebauer2021digital, baines2020framing, tronvoll2020transformational}. Vendrell-Herrero and al., 2017~\cite{vendrell2017servitization} demonstrate that digital servitization expands the scope of servitization by an even stronger focus on end-user interaction, and Mosch and al., 2021~\cite{mosch2021trapped} and Ritter and Pedersena, 2020~\cite{ritter2020digitization} shows that the move towards servitization has steadily intensified with increasing digitization. 
+
+\subsection{Existing Gap in Servitization Literature}
+Current servitization research mainly focuses on the transformation of a product into a service~\cite{rabetino2017strategy} from the perspective of a company by examining the managerial and economic aspects~\cite{kowalkowski2017servitization}. This is due to the majority of authors being composed of researchers in the field of economics and management with an overrepresentation of western authors and thus a Western narrative bias\cite{luoto2017critical}. Publications on the topic are exclusively in economics and management journals~\cite{kowalkowski2017servitization, luoto2017critical, gebauer2021digital}. 
+
+Criticism has started to emerge that highlights the limitations of this viewpoint, notably Luoto et al., 2017~\cite{luoto2017critical} demonstrate that four paradigmatic assumptions currently guide servitization research: alignment to the Western narrative of constant development, a realist ontology, a positivist epistemology, and managerialism. The work conducted by Zhang et al.~\cite{zhang2017challenges} provides similar observations regarding the one-sided research approach. All of the 48 papers they selected based on the theme of \textit{servitization of manufacturing or service provision of product centric companies} came from journals related to economics, the biggest share being operations and technology management. 
+
+\subsection{Power Shift}
+Some papers discuss a causality between digital servitization and a shift of power between stakeholders~\cite{vendrell2017servitization, mosch2021trapped}, however, written primarily from a managerial point of view. The power dynamics described in these works is centered on the control of critical resources at different points in the supply chain. Digital servitization changes the access to these critical resources for multiple stakeholders involved. It also creates new ones, especially data.
+
+This transfer of power is not limited to companies, however, it also affects the consumers. Kreutzmann-Gallasch and Schroff, 2022~\cite{kreutzmann2022case}, for instance, show that Amazon's Kindle digital book service has negative consequences for authors, publishers, and consumers. Amazon's remote removal of the 1984 book from the users' digital library, without informing them, has also highlighted the shift of power between users and the company that digital servitization allows~\cite{stone2009amazon}, by changing ownership and privacy rules~\cite{albrechtslund2020amazon}. John Deere, the world's largest manufacturer of agricultural machinery, no longer allows farmers to fully own their machines when they buy them. Instead, the customer buys a tractor with an implied license for the life of the vehicle to operate it. Farmers are no longer allowed to repair their equipment themselves, rather they are forced to use the repair services provided by John Deere essentially locking them into a dependency with the company for the entire life of their tractor~\cite{wiens2015we, koebler2017american}. 
+
+From these examples, several questions arise. \textit{(1) Does digital servitization encourage these shifts of power? (2) What are the mechanisms at the origin of the reinforcement of an unbalanced relationship between companies and users? (3) Are they systematically negative for users and if not, how to encourage a fair relationship in a digital service?} To our knowledge no paper studies this aspect of digital servitization. 
+
+%The current research focus on the transformation for a company of a product in a service, and the factors of a firms which that will help or hinder this transformation, and the consequences for the company, whether in terms of potential financial gains but also of reorganization of the different departments of the company.
+% +  add the references of this paper~\cite{kohtamaki2020exploring} "In practice, a manufacturing company can rarely choose between products and services, but instead moves from standardized products to customized customer solutions."
+
+
+\section{Methodology}
+\subsection{Literature Review}
+%\textit{How did we search for papers (where, keywords)? What was interesting?}
+With the main objective of exploring possible power-shifts that might follow a transformation from a product-centric to a service-centric company, we conducted a literature review, utilizing multiple databases and search engines including Google Scholar, ResearchGate and ACM. 
+In order to cover most of the literature on this topic, also paying attention to the different terms used in this area of research (compare Section~\ref{sec:servitization}), we decided to start our review with the following terms: "Servitization", "Service infusion", "Power Shift", "Consumer Rights", "Privacy". This resulted in a large amount of related literature mainly in the domains of economics and operational management.
+
+We then selected relevant studies based on our perceived relevance after reading the abstract and the basic outline of the paper. Our selection criteria were based on the relevance of the study to the research question and its contribution to our understanding of the topic.
+Since our focus was to understand the power shifts and effects for consumers that occur as companies adopt a service-centric approach, we analyzed the selected studies in order to identify patterns and trends that were related to consumers. 
+
+
+\section{Results}
+\subsection{Disadvantages of Servitization on Consumers}
+\label{sec:disadvantages}
+Many companies are transitioning to increasingly service-dominated business models, since service-based models have many advantages: continuous revenue streams, better customer relationships, or an improved company image~\cite{brady2005creating, fang2008effect}. These services also come with benefits for users: customization of products and services to meet individual needs and preferences, which can enhance the user experience, reduced environmental impact, as digital services can reduce the need for physical products, and a close relationship created by a long-term contract~\cite{luoto2017critical, mosch2021trapped}. While numerous articles have explored the causes of servitization failures~\cite{valtakoski2017explaining, gebauer2005overcoming, kastalli2013servitization}, particularly when the added value to the user is unclear~\cite{kamalaldin2020transforming}, few have examined the negative impacts of servitization on users.
+
+\subsubsection{Lock-in}
+\label{sec:lock-in}
+Once a user is locked into a relationship with a service provider, it can be difficult to switch to another provider or alternative solution because of the habit and the loss of customization. This can result in a lack of choice and reduced bargaining power for the user due to the multiplication of costs for customers to simultaneously use multiple competing services~\cite{Eisenmann2011Platformenvelopment}. Kreutzmann-Gallasch et al., 2022~\cite{kreutzmann2022case} describe this lock-in experience for the Amazon case: Leading providers like Amazon use proprietary formats and heavily guarded digital rights management systems. This makes it difficult, if not impossible, to transfer content between providers and is illegal under copyright law. Consequently, consumers often opt for the provider with the largest selection of goods, even if it limits their options.  
+
+\subsubsection{Liquidity vs. Investment}
+However, the opposite effect can also pose a potentially dangerous disadvantage. Some services focus on basic needs for everyday life. Car leasing, for example, allows consumers to pay only the lease fee and not have to bear the cost of buying a car. However, the shift from a product to a servitization model is accompanied by a shift from an investment to a regular payment that requires constant liquidity of the customer. The customer is also forced to comply with any price increases unless they want to give up the service. This comes at a significant disadvantage if the customer is dependent on their car for work purposes, for example. 
+The characteristics of car sharing and rental do not completely overlap with the characteristics of a car purchase, which is why several works are interested in the motivations of the users to rent a shared car ~\cite{prieto2022new, mounce2019potential}. We can, however, note that the consequences of the shift from car purchase to car rental are, again, mostly explored concerning their positive benefits regarding more efficient use of infrastructure and cost savings. The effect this constant liquidity requirement has on society as a whole remains to be explored.
+On a technical level, digitally organized servitization models enable the service provider to remotely remove access to the good if they deem it necessary. In case the product functions to uphold basic functioning of the customers daily life this could have devastating effects. This presents another unexplored aspect of servitization, that should be researched in order to contrast papers like \cite{prieto2022new, mounce2019potential} that mainly highlight projected benefits. 
+
+
+
+\subsubsection{Privacy}
+Privacy refers to the protection of personal information and data that is generated, collected, processed, stored, and shared through various digital channels and technologies \cite{solove2008understanding}, however privacy is in a complex notion, accordingly to Zook and al., 2017 ~\cite{zook2017ten} privacy is contextual \cite{nissenbaum2009privacy} and situational \cite{marwick2014networked}, not reducible to a simple public/private binary. Servitization is strongly linked to (the lack of) privacy, since service-centric companies often collect and use data about their customers because services often require the collection and analysis of customer data in order to provide personalized and value-added offerings, but it is also a source of financial income for these services, often without the user's choice \cite{ritter2020digitization,albrechtslund2020amazon}, 
+
+
+
+
+\subsection{Monopoly}
+\label{sec:monopoly}
+The disadvantages encountered by the customer as described above could be mitigated by purchasing the product, either in the form of a service or a tangible good, from another seller. Although one would expect this option to exist as a result of a free market, in many cases this is not possible. Companies that digitally provide intangible products rely on positive network effects which dis-proportionally benefit large players and lead to a \textit{winner-takes-it-all} situation\cite{gebauer2021digital}. Customers are unlikely to obtain services from multiple sources at the same time as this would incur disproportional costs, which in turn makes it hard for smaller players to enter the market~\cite{Eisenmann2011Platformenvelopment}. For some companies, such as Amazon, the positive network effects resulting from their large size, enable them to go as far as  becoming markets themselves. In these markets, the company not only profits from selling their own products, but can also make profit by collecting fees from the competition and other participants offering their product or service on their platform~\cite{kreutzmann2022case}. Once such a quasi-monopoly is established the company can control prices and use its power over critical resources to stay in power and even use its size in one domain to enter other markets with a head start~\cite{Eisenmann2011Platformenvelopment}. These findings show that domains that can profit heavily from servitization are also likely to produce quasi-monopolies. In that case, the negative effects servitization can have on customers and other stakeholders in the supply chain are further worsened due to lack of choice and high market barriers.
+
+\subsection{Piracy}
+\subsubsection{A Way to Return the Shift of Power}
+The development of computers and the Internet is competing with the emergence of digital piracy. Digital products can be copied for almost no cost and copied on a large scale without deteriorating the quality of the product. This is why digital piracy, the unauthorized and illegal digital copying or distribution of digital goods, has been widely used for books, software, music and video files~\cite{peitz2006piracy}. 
+
+Although illegal in a wide range of cases, it presents a method for users to bypass the unbalanced relationship in all of the cases presented above. It is the method used by farmers to hack their own John Deere tractors~\cite{koebler2017american}, it is also the case for Kindle users downloading illegal copies of books~\cite{camarero2014technological}. In a similar way, academic publications are often only accessible through subscription services or paywalls, which is criticized for being unfair and limiting access for university students and researchers who cannot afford subscriptions and as having a negative impact on research and society as a whole~\cite{van2013true}. As a result, Sci-Hub, a shadow library website that provides free access without regard to copyright to research papers and books, is widely used by the scientific community to access a very large majority of the papers under paywalls~\cite{himmelstein2018sci}.
+
+Digital piracy plays a significant role in the context of digital servitization as it undermines the financial model of many businesses that rely on subscription or pay-per-use models for their digital services. Digital piracy can increase access to services for those who are unable to pay for them. Therefore, it also serves as a means of exerting pressure to shift the power dynamics between users and companies. It is, however, not the only way of mitigating the uneven power balance. German Research Institutions, for example, have started a process called \textit{DEAL negotiations} to force a change in the business practices of the publishers with the largest market share \footnote{\url{https://www.projekt-deal.de/about-deal/}} and explicitly encourages legal means to bypass paywalls.\footnote{\url{https://www.mpdl.mpg.de/images/Flyer_How_to_deal_with_no_subscription_DEAL.pdf}}.
+
+\subsubsection{A Symptom of Broken System for Users}
+
+We do not advocate for piracy per se, since digital piracy can make it difficult for companies to recoup the costs of developing and maintaining these services, and can have negative consequences for the creators and owners of content, as well as for the wider industry and society~\cite{hashim2018central}. However, we believe that piracy is a symptom of a broken system for users. Yoon, 2011~\cite{yoon2011theory} shows that several factors influence the behavioral intentions of individuals to commit digital piracy, including moral obligation and justice, subjective norms, and perceived behavioral control. Additionally, hackers often consider their actions to be victimless~\cite{hashim2018central}. Haines and Haines, 2007,~\cite{haines2007fairness} demonstrate that moral intentions are influenced by perceptions of the fairness/justice of the act and by feelings of guilt for performing the act. Therefore, it is our belief that combating piracy becomes challenging when users see the services they hack as unjust, unaffordable, or inaccessible, and when the benefits they perceive from digital piracy outweigh the potential consequences. Furthermore, it is ethically challenging to justify the fight against piracy if users experience negative impacts from digital servitization, such as increased costs as well as being locked into relationships with companies that reduce their rights and uses.
+
+\subsubsection{A way to enforce state to change the rules}
+Finally, we posit that the prevalence of piracy is also a way to put pressure on the government as it results in a significant loss of revenue in the form of unpaid taxes, dissatisfaction among companies with the ineffectiveness of anti-piracy measures, and dissatisfaction among users who do not have alternatives that are perceived as fair and legal and are opposed to anti-piracy policies.
+
+Thus, piracy is a means of encouraging governments and policy makers to find alternative solutions that address the underlying issues of accessibility and affordability, such as increasing the availability of affordable and legal options to obtain digital content and services. The resulting public discourse can encourage policymakers to consider the limitations and inefficiencies of current copyright laws and intellectual property regulations and to consider alternative approaches that better balance the interests of rights-holders, consumers, and the wider public.
+
+We have based this assumption on the case of Open Access, a set of principles and methods through which research results are made available online without barriers to access, including fees, in scientific research~\cite{suber2012open}, which is the result of a policy initiated by researchers and research institutions and provides free access to millions of articles~\cite{bodo2016pirates, lawson2017access, sanchez2016sci}. Additionally, Chui and al., 2008~\cite{chiu2008encourage} demonstrate antipiracy and customer loyalty strategies such as lower-pricing, legal, communication, and product strategies all enhance customer purchase intentions toward legal solution. However, it should be noted that change of policies may not address all instances of unfair digital servitization leading to digital piracy, user's decision to engage in digital piracy is not solely determined by ethical considerations~\cite{riekkinen2018piracy}.
+
+
+
+\section{Guidelines for Policy Makers}
+As digitalization continues to drive the growth of servitization~\cite{mosch2021trapped, ritter2020digitization} (also compare Section~\ref{sec:digital-servitization}), 
+it is becoming increasingly important for policy makers and consumer protection groups to take action to address the challenges and downsides of servitization for consumers. 
+In the light of the issues mentioned in Section~\ref{sec:disadvantages}, it is crucial to have a common framework of guidelines that help mitigate the negative effects of servitization for consumers.
+
+The guidelines should be considered as an approach and start for further discussions, which might eventually be useful for implementation in directives on a supranational level or in national law. 
+
+
+\subsection{Proposals}
+% Christoph
+\subsubsection{Preventing Monopoly Formation}
+One of the most prominent effects of service-centric businesses is the tendency for creating quasi-monopolies~\cite{kreutzmann2022case, gebauer2021digital} through price control by consumer lock-in and therefore the lack of general interoperability (compare Section~\ref{sec:monopoly}).
+It is therefore important to ensure that consumers are protected against monopolistic practices that can restrict their choices, reduce general competition, and ultimately limit their rights. 
+To achieve this, policy makers must implement more measures that prevent the formation of monopolies in service-centric sectors. 
+\\\\
+One key measure is to foster innovation and encourage the development of alternative service providers "by removing barriers to entry and increasing access for new entrants."~\cite{kreutzmann2022case}. 
+This could be implemented by legislators through funding research and development in service-centric business sectors, 
+providing financial support for start-ups, or promoting entrepreneurship in general.
+Policy makers could also provide incentives for companies to adopt open-source software or to offer open APIs, which would allow new entrants to build on or make them interoperable with existing platforms and services, creating a choice for consumers.
+
+At the same time, consumer protection laws need to be updated and strenghtened to keep in pace with servitized business models. Policy makers must ensure that basic consumer rights like the right to privacy, data protection, or transparency are maintained. 
+\\\\
+Another important measure is to prevent the formation of monopolies through regulation.
+This can be achieved by limiting market share, mergers and acquisitions that are prevalent in certain sectors like the tech industry, while strenghtening anti-trust legislation.  
+Regulatory bodies could enforce measures like breaking up companies that have become dominant in their respective markets or requiring companies to offer and implement open standards and access to their platforms and services. 
+
+\subsubsection{Establishing Standards}
+The European Union's (EU) recent decision to require all mobile phones, tablets and cameras sold in the EU to be 
+equipped with a USB-C type charging port~\cite{usbEU2022} is an example of how standardization can benefit consumers. 
+With the new rules, consumers will no longer need to purchase a new charger for every device they own, as they 
+will be able to use one single charger for a range of small and medium-sized portable electronic devices. 
+Similarly in a non-hardware related area, standardization can also benefit consumers in servitized businesses, as 
+standards ensure a level of interoperability between services and products that prevent lock-in of consumers in 
+a single provider's ecosystem. 
+\\\\
+As seen in Section~\ref{sec:lock-in}, Amazon uses its dominant market power in the e-Book sector to lock in consumers using proprietary formats and closed environments with strong digital rights management. 
+A standardized e-book format would allow transferring books to other hardware, without infringing on copyright. 
+As Kreutzmann-Gallasch et al.~\cite{kreutzmann2022case} point out rightly, "the lack of interoperability is the major factor in Amazon's dominant position in the e-book sector and the existing competitive constraints within the market". 
+This also means that establishing standards would prevent such a dominant market position in the first place and can also be seen as a preventive measure, so to say.
+%Kreutzmann-Gallasch et al.~\cite{kreutzmann2022case} also mention the example of Microsoft, where the European Union's General Court of Justice declared that "interoperability was indispensable due to Windows' "quasi-monopoly" position in the PC operating market, which made it impossible for competitors to promote their products if they were not compatible with Windows". 
+%The leading position of Microsoft in the operating system market ("quasi-monopoly") in this case led to a "lock-out" of competitors 
+
+\subsubsection{Ensuring Basic Functionality}
+%If consumers decide to change providers of service-centric business models, they are not able to use the service anymore and might furthermore also not be able to use ...
+The purpose of this guideline is to ensure that consumers of service-centric businesses are not left without access 
+to the basic functionality of a product once they stop paying for the service. This is particularly relevant 
+in lock-out scenarios (B2B) where the termination of a service contract leads to the inusability of the entire product \cite{mosch2021trapped}. \newline
+To prevent total lock-out, companies should be required to contractually provide a minimum level of functionality for the product, even after the consumer stops paying for a service (possibly incorporating a release fee).
+This could include access to key features/data or the ability to use the product for a specific
+period of remaining time. 
+Employing this guideline would guarantee that consumers (or other companies in the above-mentioned case) are not left with a useless product after stopping to pay for the service. 
+Furthermore, it would prevent consumers from feeling "locked-in" to the service provider and ensure that they can make an informed choice about whether or not to continue paying for the service. 
+Implementing this guideline would provide transparency for the customers by informing them on what they are paying for and what 
+they can expect to receive in return, even after the termination of the contract. 
+
+
+\subsection{Limitations}
+Issuing directives even on a national level can be a complex and time-consuming process, especially if multiple stakeholders with conflicting interests are involved. Ensuring that the laws and directives derived from the proposed guidelines are implemented may also require significant resources. 
+It may also not be possible at all or require a high level of technical expertise to establish effective standards in some industries, which in turn would limit the effectiveness of the guidelines implemented. 
+\\\\
+Therefore, these guidelines highlight the need for continued research, collaboration between policymakers, the industry and consumers and a broad social discussion to ensure that the proposed guidelines are effectively addressing the challenges of servitization for consumers. 
+
+
+\section{Conclusion}
+Servitization has become a driving force in the digital age and is constantly changing the way businesses operate. 
+This paper aimed to add a consumer perspective to the body of research on this topic. 
+\\\\
+The major issues of servitization for consumers identified in this paper include the formation of quasi-monopolies, consumer lock-in, a required constant liquidity for using a service and a growing lack of privacy. 
+We found that these disadvantages can lead to the emergence of digital piracy. 
+Piracy can serve as a way for users to bypass the unbalanced power dynamic between them and the companies offering digital services. It is a symptom of a broken system for consumers, who might engage in it if they see the services as unjust, unaffordable, or inaccessible, and the perceived benefits of piracy outweigh potential consequences. 
+
+In addition to the general disadvantages, this highlights the need for policy makers to take action in creating measures that protect the rights and interests of users, as digitalization amplifies this imbalance.
+\\\\
+We therefore proposed a framework of guidelines as a starting point for further discussion.
+The three key proposals we established are: (1) preventing monopoly formation by fostering innovation, encouraging alternative service providers, and strengthening consumer protection laws, (2) establishing standards to ensure interoperability and prevent lock-in and (3) depending on the specific use case, ensuring basic functionality of products after the termination of a service. 
+\\\\
+However, in order to balance the interests of all stakeholders in the servitization process, we call for a broad social discussion on the underlying questions of ownership in general: How does the shift towards servitization impact the social dynamics of our society? 
+Where should the ownership of digital products lie?
+
+
+
+%Argumentation of this paper:
+%\begin{itemize}
+%    \item \textbf{Servitization} increasingly becomes \textbf{business strategy}.
+%    \item \textbf{We did:} literature review + case studies -> how servitization shifts power
+%    \item \textbf{We found:} gap in existing research, which primarily focuses on the benefits for companies
+%    \item \textbf{We analyzed} case studies and list: Disadvantages for consumers such as monopolies, lock-in, lock-out, emerging copyright issues due to the lack of ownership
+%    \item \textbf{We therefore propose} policy guidelines to establish a servitization model that balances the interests of both companies and consumers.
+%\end{itemize}
+
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigplan.tex'.

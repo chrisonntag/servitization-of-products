@@ -1,0 +1,780 @@
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+@article{ZuboffReview,
+author = {Evangelista, Rafael},
+year = {2019},
+month = {03},
+pages = {246-251},
+title = {Review of Zuboff’s The Age of Surveillance Capitalism},
+volume = {17},
+journal = {Surveillance \& Society},
+doi = {10.24908/ss.v17i1/2.13132}
+}
+
+@article{kohtamaki2020exploring,
+  title={Exploring servitization through the paradox lens: Coping practices in servitization},
+  author={Kohtam{\"a}ki, Marko and Einola, Suvi and Rabetino, Rodrigo},
+  journal={International Journal of Production Economics},
+  volume={226},
+  pages={107619},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{vandermerwe1988servitization,
+  title={Servitization of business: adding value by adding services},
+  author={Vandermerwe, Sandra and Rada, Juan},
+  journal={European management journal},
+  volume={6},
+  number={4},
+  pages={314--324},
+  year={1988},
+  publisher={Elsevier}
+}
+
+@article{kowalkowski2017servitization,
+  title={Servitization and deservitization: Overview, concepts, and definitions},
+  author={Kowalkowski, Christian and Gebauer, Heiko and Kamp, Bart and Parry, Glenn},
+  journal={Industrial Marketing Management},
+  volume={60},
+  pages={4--10},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{luoto2017critical,
+  title={Critical meta-analysis of servitization research: Constructing a model-narrative to reveal paradigmatic assumptions},
+  author={Luoto, Seppo and Brax, Saara A and Kohtam{\"a}ki, Marko},
+  journal={Industrial Marketing Management},
+  volume={60},
+  pages={89--100},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{mosch2021trapped,
+  title={Trapped in the supply chain? Digital servitization strategies and power relations in the case of an industrial technology supplier},
+  author={Mosch, Philipp and Schweikl, Stefan and Obermaier, Robert},
+  journal={International Journal of Production Economics},
+  volume={236},
+  pages={108141},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{ritala2014coopetition,
+  title={Coopetition-based business models: The case of Amazon. com},
+  author={Ritala, Paavo and Golnam, Arash and Wegmann, Alain},
+  journal={Industrial marketing management},
+  volume={43},
+  number={2},
+  pages={236--249},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@article{vendrell2017servitization,
+  title={Servitization, digitization and supply chain interdependency},
+  author={Vendrell-Herrero, Ferran and Bustinza, Oscar F and Parry, Glenn and Georgantzis, Nikos},
+  journal={Industrial Marketing Management},
+  volume={60},
+  pages={69--81},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{kreutzmann2022case,
+  title={A Case for Openness--Book Publishing and the Role of Amazon},
+  author={Kreutzmann-Gallasch, Antje and Schroff, Simone},
+  journal={IIC-International Review of Intellectual Property and Competition Law},
+  volume={53},
+  number={2},
+  pages={194--218},
+  year={2022},
+  publisher={Springer}
+}
+
+@article{kreye2021servitization,
+  title={Servitization for consumer products: an empirical exploration of challenges and benefits for supply chain partners},
+  author={Kreye, Melanie E and van Donk, Dirk Pieter},
+  journal={International Journal of Operations \& Production Management},
+  volume={41},
+  number={5},
+  pages={494--516},
+  year={2021},
+  publisher={Emerald Publishing Limited}
+}
+
+@article{finne2015striving,
+  title={Striving for network power: The perspective of solution integrators and suppliers},
+  author={Finne, Max and Turunen, Taija and Eloranta, Ville},
+  journal={Journal of Purchasing and Supply Management},
+  volume={21},
+  number={1},
+  pages={9--24},
+  year={2015},
+  publisher={Elsevier}
+}
+
+
+@article{costa2013competitive,
+  title={The competitive implications of the deployment of unique resources},
+  author={Costa, Lu{\'\i}s Almeida and Cool, Karel and Dierickx, Ingemar},
+  journal={Strategic management journal},
+  volume={34},
+  number={4},
+  pages={445--463},
+  year={2013},
+  publisher={Wiley Online Library}
+}
+
+@article{bustinza2013supply,
+  title={Supply and demand chain management: The effect of adding services to product offerings},
+  author={Bustinza, Oscar F and Parry, Glenn C and Vendrell-Herrero, Ferran},
+  journal={Supply Chain Management: An International Journal},
+  volume={18},
+  number={6},
+  pages={618--629},
+  year={2013},
+  publisher={Emerald Group Publishing Limited}
+}
+
+@article{annarelli2019new,
+  title={The New Role of Client: From Ownership to Value Co-creation},
+  author={Annarelli, Alessandro and Battistella, Cinzia and Nonino, Fabio and Annarelli, Alessandro and Battistella, Cinzia and Nonino, Fabio},
+  journal={The Road to Servitization: How Product Service Systems Can Disrupt Companies’ Business Models},
+  pages={31--54},
+  year={2019},
+  publisher={Springer}
+}
+
+@article{eloranta2015seeking,
+  title={Seeking competitive advantage with service infusion: a systematic literature review},
+  author={Eloranta, Ville and Turunen, Taija},
+  journal={Journal of Service Management},
+  year={2015},
+  publisher={Emerald Group Publishing Limited}
+}
+
+@article{loebbecke2015reflections,
+  title={Reflections on societal and business model transformation arising from digitization and big data analytics: A research agenda},
+  author={Loebbecke, Claudia and Picot, Arnold},
+  journal={The Journal of Strategic Information Systems},
+  volume={24},
+  number={3},
+  pages={149--157},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{cenamor2017adopting,
+  title={Adopting a platform approach in servitization: Leveraging the value of digitalization},
+  author={Cenamor, Javier and Sj{\"o}din, D R{\"o}nnberg and Parida, Vinit},
+  journal={International Journal of Production Economics},
+  volume={192},
+  pages={54--65},
+  year={2017},
+  publisher={Elsevier}
+}
+@article{ritter2020digitization,
+  title={Digitization capability and the digitalization of business models in business-to-business firms: Past, present, and future},
+  author={Ritter, Thomas and Pedersen, Carsten Lund},
+  journal={Industrial Marketing Management},
+  volume={86},
+  pages={180--190},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{baines2020framing,
+  title={Framing the servitization transformation process: A model to understand and facilitate the servitization journey},
+  author={Baines, Tim and Bigdeli, Ali Ziaee and Sousa, Rui and Schroeder, Andreas},
+  journal={International Journal of Production Economics},
+  volume={221},
+  pages={107463},
+  year={2020},
+  publisher={Elsevier}
+}
+@misc{gebauer2021digital,
+  title={Digital servitization: Crossing the perspectives of digitization and servitization},
+  author={Gebauer, Heiko and Paiola, Marco and Saccani, Nicola and Rapaccini, Mario},
+  journal={Industrial Marketing Management},
+  volume={93},
+  pages={382--388},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{tronvoll2020transformational,
+  title={Transformational shifts through digital servitization},
+  author={Tronvoll, B{\aa}rd and Sklyar, Alexey and S{\"o}rhammar, David and Kowalkowski, Christian},
+  journal={Industrial Marketing Management},
+  volume={89},
+  pages={293--305},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{rabetino2017strategy,
+  title={Strategy map of servitization},
+  author={Rabetino, Rodrigo and Kohtam{\"a}ki, Marko and Gebauer, Heiko},
+  journal={International Journal of Production Economics},
+  volume={192},
+  pages={144--156},
+  year={2017},
+  publisher={Elsevier}
+}
+
+
+@article{VISNJIC2017169,
+title = {What brings the value to outcome-based contract providers? Value drivers in outcome business models},
+journal = {International Journal of Production Economics},
+volume = {192},
+pages = {169-181},
+year = {2017},
+note = {Service Implementation in Manufacturing Firms: Strategy, Economics and Practice},
+issn = {0925-5273},
+doi = {https://doi.org/10.1016/j.ijpe.2016.12.008},
+url = {https://www.sciencedirect.com/science/article/pii/S0925527316303851},
+author = {Ivanka Visnjic and Marin Jovanovic and Andy Neely and Mats Engwall}
+}
+
+@article{zhang2017challenges,
+  title={Challenges of servitization: A systematic literature review},
+  author={Zhang, Wanrong and Banerji, Sujit},
+  journal={Industrial Marketing Management},
+  volume={65},
+  pages={217--227},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{stone2009amazon,
+  title={Amazon erases Orwell books from Kindle},
+  author={Stone, Brad},
+  journal={The New York Times},
+  volume={17},
+  number={7},
+  pages={2009},
+  year={2009}
+}
+
+@article{albrechtslund2020amazon,
+  title={Amazon, Kindle, and Goodreads: implications for literary consumption in the digital age},
+  author={Albrechtslund, Anne-Mette Bech},
+  journal={Consumption Markets \& Culture},
+  volume={23},
+  number={6},
+  pages={553--568},
+  year={2020},
+  publisher={Taylor \& Francis}
+}
+
+@article{wiens2015we,
+  title={We can’t let John Deere destroy the very idea of ownership},
+  author={Wiens, Kyle},
+  journal={Wired Magazine, April},
+  volume={21},
+  year={2015}
+}
+
+@article{koebler2017american,
+  title={Why American farmers are hacking their tractors with Ukrainian firmware},
+  author={Koebler, Jason},
+  journal={Motherboard. https://motherboard. vice. com/en\_us/article/why-american-farmers-are-hacking-their-tractors-with-ukrainian-firmware. Accessed},
+  volume={22},
+  year={2017}
+}
+
+@article{peitz2006piracy,
+  title={Piracy of digital products: A critical review of the theoretical literature},
+  author={Peitz, Martin and Waelbroeck, Patrick},
+  journal={Information Economics and Policy},
+  volume={18},
+  number={4},
+  pages={449--476},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@article{camarero2014technological,
+  title={Technological and ethical antecedents of e-book piracy and price acceptance: Evidence from the Spanish case},
+  author={Camarero, Carmen and Ant{\'o}n, Carmen and Rodr{\'\i}guez, Javier},
+  journal={The Electronic Library},
+  year={2014},
+  publisher={Emerald Group Publishing Limited}
+}
+
+@article{van2013true,
+  title={The true cost of science publishing},
+  author={Van Noorden, Richard and others},
+  journal={Nature},
+  volume={495},
+  number={7442},
+  pages={426--429},
+  year={2013}
+}
+
+@article{himmelstein2018sci,
+  title={Sci-Hub provides access to nearly all scholarly literature},
+  author={Himmelstein, Daniel S and Romero, Ariel Rodriguez and Levernier, Jacob G and Munro, Thomas Anthony and McLaughlin, Stephen Reid and Greshake Tzovaras, Bastian and Greene, Casey S},
+  journal={ELife},
+  volume={7},
+  pages={e32822},
+  year={2018},
+  publisher={eLife Sciences Publications, Ltd}
+}
+
+@article{hashim2018central,
+  title={Central role of moral obligations in determining intentions to engage in digital piracy},
+  author={Hashim, Matthew J and Kannan, Karthik N and Wegener, Duane T},
+  journal={Journal of Management Information Systems},
+  volume={35},
+  number={3},
+  pages={934--963},
+  year={2018},
+  publisher={Taylor \& Francis}
+}
+
+@article{haines2007fairness,
+  title={Fairness, guilt, and perceived importance as antecedents of intellectual property piracy intentions},
+  author={Haines, Russell and Haines, Douglas},
+  journal={ICIS 2007 Proceedings},
+  pages={158},
+  year={2007}
+}
+
+@article{yoon2011theory,
+  title={Theory of planned behavior and ethics theory in digital piracy: An integrated model},
+  author={Yoon, Cheolho},
+  journal={Journal of business ethics},
+  volume={100},
+  pages={405--417},
+  year={2011},
+  publisher={Springer}
+}
+
+@article{sanchez2016sci,
+  title={Sci-Hub unmasked: Piracy, information policy, and your library},
+  author={Sanchez, Edward and Russell, Carrie},
+  journal={College and Research Libraries News},
+  year={2016},
+  publisher={American Library Association (ALA)}
+}
+
+@book{suber2012open,
+  title={Open access},
+  author={Suber, Peter},
+  year={2012},
+  publisher={The MIT Press}
+}
+
+@inproceedings{bodo2016pirates,
+  title={Pirates in the library--an inquiry into the guerilla open access movement},
+  author={Bod{\'o}, Bal{\'a}zs},
+  booktitle={8th Annual Workshop of the International Society for the History and Theory of Intellectual Property, CREATe, University of Glasgow, UK},
+  year={2016}
+}
+
+@article{lawson2017access,
+  title={Access, ethics and piracy},
+  author={Lawson, Stuart},
+  journal={Insights},
+  volume={30},
+  number={1},
+  year={2017}
+}
+
+@inproceedings{riekkinen2018piracy,
+  title={Piracy versus netflix: Subscription video on demand dissatisfaction as an antecedent of piracy},
+  author={Riekkinen, Janne},
+  booktitle={Proceedings of the Annual Hawaii International Conference on System Sciences},
+  year={2018},
+  organization={University of Hawai'i at Manoa}
+}
+@article{chiu2008encourage,
+  title={How to encourage customers to use legal software},
+  author={Chiu, Hung-Chang and Hsieh, Yi-Ching and Wang, Mei-Chien},
+  journal={Journal of Business Ethics},
+  volume={80},
+  pages={583--595},
+  year={2008},
+  publisher={Springer}
+}
+@article{LACOSTE2015229,
+title = {Supplier–customer relationships: A case study of power dynamics},
+journal = {Journal of Purchasing and Supply Management},
+volume = {21},
+number = {4},
+pages = {229-240},
+year = {2015},
+issn = {1478-4092},
+doi = {https://doi.org/10.1016/j.pursup.2014.12.006},
+url = {https://www.sciencedirect.com/science/article/pii/S1478409215000023},
+author = {Sylvie Lacoste and Rhona E. Johnsen},
+keywords = {Power dynamic, Countervailing power, Performance process services},
+abstract = {Against the backdrop of earlier research on power in supplier–customer relationships, our study focuses on the power dynamics, which lead low-power suppliers to re-balance their power relationship with strategic customers. An in-depth qualitative study is used to examine the case of a network made of several dyads (FMCG strategic customers/corrugated packaging suppliers). Our findings are slightly counter-intuitive: a new stream of literature tends to show that supplier performance is relationship-driven. We find here that the supplier performance is process-driven: to reach the targeted level of performance and to move out from a low-power position, the suppliers develop a two-step process. First, suppliers shift their focus from a product centric approach to a customer business process one, supplying “Process Support Services”. Second, suppliers initiate “Performance Process Services” to position themselves to outsource the customer’s business processes, hence creating interdependency and a countervailing power with the strategic customer.}
+}
+
+@article{Eisenmann2011Platformenvelopment,
+author = {Eisenmann, Thomas and Parker, Geoffrey and Van Alstyne, Marshall},
+title = {Platform envelopment},
+journal = {Strategic Management Journal},
+volume = {32},
+number = {12},
+pages = {1270-1285},
+keywords = {entry, platforms, network effects, bundling, two-sided markets},
+doi = {https://doi.org/10.1002/smj.935},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.935},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/smj.935},
+abstract = {Abstract Due to network effects and switching costs in platform markets, entrants generally must offer revolutionary functionality to win substantial market share. We explore a second entry path that does not rely upon Schumpeterian innovation: platform envelopment. Through envelopment, a provider in one platform market can enter another platform market, and combine its own functionality with that of the target in a multi-platform bundle that leverages shared user relationships. Envelopers capture market share by foreclosing an incumbent's access to users; in doing so, they harness the network effects that previously had protected the incumbent. We present a typology of envelopment attacks based on whether platform pairs are complements, weak substitutes, or functionally unrelated and we analyze conditions under which these attack types are likely to succeed. Copyright © 2011 John Wiley \& Sons, Ltd.},
+year = {2011}
+}
+
+@article{brady2005creating,
+  title={Creating value by delivering integrated solutions},
+  author={Brady, Tim and Davies, Andrew and Gann, David M},
+  journal={International Journal of Project Management},
+  volume={23},
+  number={5},
+  pages={360--365},
+  year={2005},
+  publisher={Elsevier}
+}
+
+@article{fang2008effect,
+  title={Effect of service transition strategies on firm value},
+  author={Fang, Eric and Palmatier, Robert W and Steenkamp, Jan-Benedict EM},
+  journal={Journal of marketing},
+  volume={72},
+  number={5},
+  pages={1--14},
+  year={2008},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+}
+
+@article{holmstrom2014digital,
+  title={Digital manufacturing-driven transformations of service supply chains for complex products},
+  author={Holmstr{\"o}m, Jan and Partanen, Jouni},
+  journal={Supply Chain Management: An International Journal},
+  volume={19},
+  number={4},
+  pages={421--430},
+  year={2014},
+  publisher={Emerald Group Publishing Limited}
+}
+
+@misc{usbEU2022, 
+    title={Long-awaited common charger for mobile devices will be a reality in 2024},
+    author={Yasmina Yakimova, Press Officer, European Parliament},
+    year={2022}, 
+    month={Oct},
+    howpublished={Available at \url{https://www.europarl.europa.eu/news/en/press-room/20220930IPR41928/long-awaited-common-charger-for-mobile-devices-will-be-a-reality-in-2024}, Accessed on 07.02.2023}
+} 
+
+@article{valtakoski2017explaining,
+  title={Explaining servitization failure and deservitization: A knowledge-based perspective},
+  author={Valtakoski, Aku},
+  journal={Industrial Marketing Management},
+  volume={60},
+  pages={138--150},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{gebauer2005overcoming,
+  title={Overcoming the service paradox in manufacturing companies},
+  author={Gebauer, Heiko and Fleisch, Elgar and Friedli, Thomas},
+  journal={European management journal},
+  volume={23},
+  number={1},
+  pages={14--26},
+  year={2005},
+  publisher={Elsevier}
+}
+
+@article{kamalaldin2020transforming,
+  title={Transforming provider-customer relationships in digital servitization: A relational view on digitalization},
+  author={Kamalaldin, Anmar and Linde, Lina and Sj{\"o}din, David and Parida, Vinit},
+  journal={Industrial Marketing Management},
+  volume={89},
+  pages={306--325},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{kastalli2013servitization,
+  title={Servitization: Disentangling the impact of service business model innovation on manufacturing firm performance},
+  author={Kastalli, Ivanka Visnjic and Van Looy, Bart},
+  journal={Journal of operations management},
+  volume={31},
+  number={4},
+  pages={169--180},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@article{gulzari2022green,
+  title={A green experience with eco-friendly cars: A young consumer electric vehicle rental behavioral model},
+  author={Gulzari, Adeela and Wang, Yuchen and Prybutok, Victor},
+  journal={Journal of Retailing and Consumer Services},
+  volume={65},
+  pages={102877},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@article{mounce2019potential,
+  title={On the potential for one-way electric vehicle car-sharing in future mobility systems},
+  author={Mounce, Richard and Nelson, John D},
+  journal={Transportation Research Part A: Policy and Practice},
+  volume={120},
+  pages={17--30},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@article{prieto2022new,
+  title={New insights in peer-to-peer carsharing and ridesharing participation intentions: Evidence from the “provider-user” perspective},
+  author={Prieto, Marc and Stan, Valentina and Baltas, George},
+  journal={Journal of Retailing and Consumer Services},
+  volume={64},
+  pages={102795},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@misc{zook2017ten,
+  title={Ten simple rules for responsible big data research},
+  author={Zook, Matthew and Barocas, Solon and Boyd, Danah and Crawford, Kate and Keller, Emily and Gangadharan, Seeta Pe{\~n}a and Goodman, Alyssa and Hollander, Rachelle and Koenig, Barbara A and Metcalf, Jacob and others},
+  journal={PLoS computational biology},
+  volume={13},
+  number={3},
+  pages={e1005399},
+  year={2017},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@article{solove2008understanding,
+  title={Understanding privacy},
+  author={Solove, Daniel J},
+  year={2008},
+  publisher={Harvard University Press, May}
+}
+
+@incollection{nissenbaum2009privacy,
+  title={Privacy in context},
+  author={Nissenbaum, Helen},
+  booktitle={Privacy in Context},
+  year={2009},
+  publisher={Stanford University Press}
+}
+
+@article{marwick2014networked,
+  title={Networked privacy: How teenagers negotiate context in social media},
+  author={Marwick, Alice E and Boyd, Danah},
+  journal={New media \& society},
+  volume={16},
+  number={7},
+  pages={1051--1067},
+  year={2014},
+  publisher={Sage Publications Sage UK: London, England}
+}
+
